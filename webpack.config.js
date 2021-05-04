@@ -1,5 +1,6 @@
 const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
+const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
   // Set the mode to development or production
@@ -44,6 +45,7 @@ module.exports = {
         concurrency: 100,
       },
     }),
+    new ESLintPlugin({}),
   ],
   devServer: {
     contentBase: path.join(__dirname, 'docs'),
