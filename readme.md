@@ -1,3 +1,9 @@
+
+Screenshot of Webpack Build successfully compiling with no errors:
+![img.png](img.png)
+
+
+
 This is based on this tutorial:
 
 Babel: https://www.robinwieruch.de/webpack-eslint/
